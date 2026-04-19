@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: decision-intelligence-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama3-70b-8192
+      - key: MAX_TOKENS
+        value: "2000"
+      - key: TEMPERATURE
+        value: "0.2"
