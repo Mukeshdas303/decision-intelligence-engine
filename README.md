@@ -29,22 +29,6 @@ Most meeting summaries just compress text. This engine **reasons** about text. I
 
 ---
 
-## Screenshots
-
-> Frontend input screen
-
-![Input screen placeholder](https://via.placeholder.com/800x400?text=Input+Screen)
-
-> Analysis report — Overview tab
-
-![Report overview placeholder](https://via.placeholder.com/800x400?text=Report+Overview)
-
-> Analysis report — Action Items tab
-
-![Action items placeholder](https://via.placeholder.com/800x400?text=Action+Items)
-
----
-
 ## Tech stack
 
 | Layer | Technology |
